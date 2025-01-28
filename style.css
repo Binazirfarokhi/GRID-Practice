@@ -1,0 +1,22 @@
+
+.wrapper{
+    /* max-width: 1200px;
+    margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 6rem;
+    gap: 2rem;
+}
+.container{
+    background-color: bisque;
+    font-size: 2.5rem;
+    text-align: left;
+    color: black;
+    border: 1px solid black;
+    padding: 2px;
+
+}
+.box1, .box5, .box9, .box13, .box17{
+   background-color: #8d3939;
+   grid-column: span 3;
+}

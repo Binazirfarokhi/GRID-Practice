@@ -1,36 +1,23 @@
-
+.container{
+    background-color: #8b84d8;
+    border: 1px solid black;
+    font-size: 2rem;
+    padding: .1rem;
+}
 .wrapper{
-    /* max-width: 1200px;
-    margin: auto; */
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    margin-top: 6rem;
-    gap: 2rem;
-}
-.container{
-    background-color: bisque;
-    font-size: 2.5rem;
-    text-align: left;
-    color: black;
-    border: 1px solid black;
-    padding: 2px;
-
+    margin-top: 2rem;
+    gap: 1rem;
 }
 .box1, .box5, .box9, .box13, .box17{
-   background-color: #8d3939;
-   grid-column: span 3;
+    background-color: #657937;
+    grid-column: span 3;
 }
 .box7{
     grid-column: 5/-1;
     grid-row: 2/6;
-    background-color: #c64545;
 }
 .box12{
     grid-column: 3/5;
-}
-.box19{
-    grid-column: 1/3;
-}
-.box20{
-    grid-column: 3/-1;
 }
